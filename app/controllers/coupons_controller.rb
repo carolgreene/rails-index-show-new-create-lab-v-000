@@ -7,7 +7,7 @@ class CouponsController < ApplicationController
   def new
   end
 
-  def create 
+  def create
     @coupon = Coupon.create(
     {
       store: params[:store],
