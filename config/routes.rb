@@ -54,8 +54,8 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  Rails.application.routes.draw do 
+  Rails.application.routes.draw do
     resources :posts, only: [:index, :new, :create]
 
-    
+
 end
