@@ -55,7 +55,7 @@ Rails.application.routes.draw do
   #   end
 
   Rails.application.routes.draw do
-    resources :posts, only: [:index, :new, :create]
+    resources :coupons, only: [:index, :new, :create]
   end
 
 
